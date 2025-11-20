@@ -1,0 +1,12 @@
+# Edge Function Configuration
+# Learn more: https://supabase.com/docs/guides/functions/config
+
+name = "process-order"
+main = "index.ts"
+runtime = "deno"
+timeout = 10
+# Verify JWTs from requests
+verify_jwt = false 
+# Set to true if you want to use the function as a webhook
+# import_map = "./import_map.json"
+# secrets = ["SUPABASE_SERVICE_ROLE_KEY"]
