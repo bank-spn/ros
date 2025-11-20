@@ -1,0 +1,22 @@
+# This is the configuration file for the Supabase CLI.
+# Learn more about the CLI: https://supabase.com/docs/guides/cli/getting-started
+
+[project]
+# The project ID from your Supabase Dashboard.
+project_id = "YOUR_SUPABASE_PROJECT_REF"
+
+[api]
+# The port for the local Supabase API server.
+port = 54321
+
+[db]
+# The port for the local PostgreSQL database.
+port = 54322
+# The directory containing your migration files.
+migrations_path = "migrations"
+
+[functions]
+# The port for the local Supabase Functions server.
+port = 54323
+# The directory containing your Edge Functions.
+functions_path = "functions"
